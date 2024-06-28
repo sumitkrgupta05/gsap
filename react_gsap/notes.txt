@@ -1,0 +1,29 @@
+*️⃣🐱‍🚀 Get start with Gsap react!!
+
+#🎯 Basic installation and importing files.
+1>  npm install gsap and @gsap/react.
+3>  import gsap from "gsap";
+3>  import { useGSAP } from "@gsap/react";
+
+
+*🤫 Kitne type se gsap animation likh nd use kr skte h??
+
+#1️⃣ Direct gsap [A_first]
+#2️⃣ using use Ref [A_second]
+
+*💀 Upr le 2 tarike se koi v ek use kr skte h jb single element ko target krke krna ho toh😎
+
+🐱‍🚀 B_first => isme 2 alag container me agr same class (.dabba) ko chlna h tb use krte h.
+️🐱‍🚀 B_second => agar same upr wla se kisi ek ko chlna ho tb useRef use krke kr skte h 
+🐱‍🚀 B_third => same but new concept i.e, SCOPE kaise use krte h 
+🐱‍🚀 B_fourth => same SCOPE but using ref
+
+🐱‍🚀 C_first => useState with dependencies. onClick animation starts wtih random number 
+🐱‍🚀 C_second => same with useRef and useState
+🐱‍🚀 C_third => just an project on that C task
+
+🐱‍🚀 D_first => contextSafe -> new concept imp 
+                ||
+                \/ 
+contextSafe is like a manager that is used to manage the animation. Means hmlog ek bda box me sbb animation dal dnge or jaise hi kam khtm ho jyega wo bhr nikl jyega means memory ni khyega so memory bchega bs yhiii h.
+memory management me bhtt help krta h ye bs main moto yhoii h!!

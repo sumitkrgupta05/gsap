@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>svg</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="string">
+      <svg width="1000" height="200">
+        <!-- M: move to point, (10,80) starting point, Q: quadratic curve, (95,10) center pt, (180,10) ending pt -->
+        <!-- <path d="M 10 80 Q 250 10 490 80" stroke="white" fill="transparent" /> -->
+        <path
+          d="M 10 100 Q 500 100 990 100"
+          stroke="white"
+          fill="transparent"
+        />
+      </svg>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow: hidden;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container {
+  padding: 30px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+.dabba {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to right bottom, rgb(222, 64, 96), crimson);
+  border-radius: 10px;
+  margin: 20px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, lightblue, cadetblue);
+}
+button {
+  padding: 20px 100px;
+  border-radius: 50px;
+  background: linear-gradient(rgb(45, 218, 129), rgb(7, 174, 80));
+  border: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.96;
+}
+img {
+  height: 200px;
+}
+#btm {
+  padding: 15px 40px;
+  color: #fff;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 35px;
+  cursor: pointer;
+}
